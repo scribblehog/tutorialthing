@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>My app</title>
-</head>
-<body>
-	Amazinggggg or is it really????
-	Who really knows?
-	I dont!
-	<script>
-		document.write("Hello world!");
-	</script>
-</body>
+	<head>
+		<title>My app</title>
+		<script> 
+			function hello(){
+				document.write("world");
+			}	
+		</script>
+	</head>
+	<body>
+		Amazinggggg or is it really????
+		Who really knows?
+		I dont!
+		<script>
+			document.write("Hello world!");
+			document.write("<br>")
+			var test = 10;
+			test += 1; //comments woop
+			var word = "This is";
+			document.write(test + " incredible" + "\n");
+			var length = word.length;
+			var result = word.substring(3,5); //note 0 based!
+			var a = new Array(7);
+			a[0] = "Cat";
+			a[1]= 45;
+			var b = new Array(3,6,2,"test");
+			var c= [5,4,"wowza"]; //quickest way
+
+			hello();
+
+			if (a[1] == 45){
+				alert("Oh noooo");
+			}
+
+			for(var i=0; i< 10; i++){
+				document.write(i);
+			}
+		</script>
+	</body>
 </html>
